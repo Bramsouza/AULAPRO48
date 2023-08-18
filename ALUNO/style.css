@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/*AULA 48 - Criado botão para atualizar jogo*/
+.botao {  
+  display: none;  
+  padding: 0.8em 1.2em;    
+  background-color:#0e181d;  
+  text-decoration: none;  
+  color: #e4e3e8;
+  border-radius:50px;
+  font-family:'open_sansregular';  
+} 
+
+.flutuante {  
+  display: inline-block;  
+  -webkit-transition-duration: 0.4s;  
+  transition-duration: 0.4s;  
+  -webkit-transition-property: -webkit-transform;  
+  transition-property: transform;  
+  -webkit-transform: translateZ(0);  
+  -ms-transform: translateZ(0);  
+  transform: translateZ(0);  
+  box-shadow: 0px 4px 2px 0px rgba(98, 98, 98, 0.69);
+}  
+
+.flutuante:hover {  
+  -webkit-transform: translateY(-5px);  
+  -ms-transform: translateY(-5px);  
+  transform: translateY(-5px);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.69);  
+} 
